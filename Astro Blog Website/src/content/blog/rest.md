@@ -1,8 +1,8 @@
 ---
 title: 'Unlocking the Power of REST APIs in Web Development'
 pubDate: 2024-01-20
-author: 'David Thompson'
-image: 'image4.png'
+author: 'Shardendu Mishra'
+image: 'https://raw.githubusercontent.com/MishraShardendu22/MishraShardendu22/refs/heads/main/what-is-astro-cover-image.webp'
 tags: ['rest api', 'web development', 'tech']
 slug: unlocking-the-power-of-rest-apis-in-web-development
 ---

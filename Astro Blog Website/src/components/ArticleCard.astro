@@ -3,29 +3,33 @@ import { formatDate } from "../utils";
 import type { CollectionEntry } from "astro:content";
 import Tags from "./Tags.astro";
 
-const { article } = Astro.props;
-
 interface Props {
   article: CollectionEntry<'blog'>;
 }
+
+const { article } = Astro.props;
 ---
 
-
 <div class="max-w-md mx-auto mt-10">
-  <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-    <a href={'/articles/' + article.slug}>
+  <article class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <a href={`/articles/${article.slug}`} class="block relative group">
       <img
-        src={'/images/' + article.data.image}
-        alt="Article Image"
-        class="w-full h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
+        src={article.data.image}
+        alt={article.data.title}
+        class="w-full h-56 object-cover transition-transform duration-300 ease-in-out group-hover:scale-105"
       />
+      <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300 ease-in-out"></div>
     </a>
     <div class="p-6">
-      <h2 class="text-2xl font-semibold mb-2">
-        <a href={'/articles/' + article.slug}> {article.data.title} </a>
+      <div class="flex justify-between items-center mb-3">
+        <time datetime={article.data.pubDate.toISOString()} class="text-sm text-gray-500">
+          {formatDate(article.data.pubDate)}
+        </time>
+      </div>
+      <h2 class="text-xl font-bold mb-3 text-gray-900 hover:text-indigo-600 transition-colors duration-200">
+        <a href={`/articles/${article.slug}`}>{article.data.title}</a>
       </h2>
-      <p class="text-gray-600 text-sm mb-4">{formatDate(article.data.pubDate)}</p>
       <Tags tags={article.data.tags} />
     </div>
-  </div>
+  </article>
 </div>

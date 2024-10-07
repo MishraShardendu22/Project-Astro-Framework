@@ -1,8 +1,8 @@
 ---
 title: 'Mastering the Art of Web Development with Express'
 pubDate: 2024-01-19
-author: 'Emma Roberts'
-image: 'image2.png'
+author: 'Shardendu Mishra'
+image: 'https://github.com/MishraShardendu22/MishraShardendu22/blob/main/download.png?raw=true'
 tags: ['express', 'web development', 'node.js']
 slug: mastering-the-art-of-web-development-with-express
 ---

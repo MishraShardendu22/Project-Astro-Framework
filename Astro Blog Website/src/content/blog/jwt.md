@@ -2,8 +2,8 @@
 
 title: 'The Best Practices for Using JWT in 2024'  
 pubDate: 2024-01-20  
-author: 'John Doe'  
-image: 'image1.png'  
+author: 'Shardendu Mishra'
+image: 'https://github.com/MishraShardendu22/MishraShardendu22/blob/main/jwtio-json-web-token.png?raw=true'
 tags: ['tech', 'security']  
 slug: best-practices-for-using-jwt-in-2024  
 

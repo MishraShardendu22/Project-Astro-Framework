@@ -1,8 +1,8 @@
 ---
 title: 'Exploring the Future of Web Development with Astro.js'
 pubDate: 2024-01-16
-author: 'Emma Wilson'
-image: 'image5.png'
+author: 'Shardendu Mishra'
+image: 'https://raw.githubusercontent.com/MishraShardendu22/MishraShardendu22/refs/heads/main/what-is-astro-cover-image.webp'
 tags: ['astro.js', 'web development', 'static site generation']
 slug: exploring-the-future-of-web-development-with-astro-js
 ---

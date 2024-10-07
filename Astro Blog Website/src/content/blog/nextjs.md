@@ -1,8 +1,8 @@
 ---
 title: "Unleashing the Power of Next.js for Modern Web Development"
 pubDate: 2024-01-15
-author: 'Alex Thompson'
-image: 'image6.png'
+author: 'Shardendu Mishra'
+image: 'https://github.com/MishraShardendu22/MishraShardendu22/blob/main/images.png?raw=true'
 tags: ['web development', 'next.js', 'javascript']
 slug: unleashing-the-power-of-next-js-for-modern-web-development
 ---
