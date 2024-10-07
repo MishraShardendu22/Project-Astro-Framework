@@ -1,9 +1,9 @@
 ---
-title: 'Revolutionizing Productivity with Tablets in 2024'
+title: 'Revolutionizing API usage wiht SOAP-API'
 pubDate: 2024-01-15
 author: 'Shardendu Mishra'
 image: 'https://raw.githubusercontent.com/ShardenduMishra22/ShardenduMishra22/refs/heads/main/7b5b5e4b-c2eb-4648-9cfd-f64c2e4e8ad1.webp'
-tags: ['tablets', 'productivity', 'tech']
+tags: ['web development', 'api', 'tech']
 slug: revolutionizing-productivity-with-tablets-in-2024
 ---
 

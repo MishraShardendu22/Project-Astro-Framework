@@ -25,7 +25,7 @@ const { Content } = await entry.render();
     <h1 class="text-4xl font-bold mb-2"> {entry.data.title}</h1>
     <h3 class="text-lg mb-2">Written by {entry.data.author} on {formatDate(entry.data.pubDate)}</h3>
     <Tags tags={entry.data.tags} />
-    <img src={'/images/' + entry.data.image} alt="Article Image" class="w-full h-auto rounded-xl my-6" />
+    <!-- <img src={entry.data.image} alt="Article Image" class="w-96 h-96 rounded-xl my-6" /> -->
     <Content />
   </article>
 </MainLayout>
