@@ -1,7 +1,7 @@
 <!-- Fork This and Send YOur Submission, Best Of Luck !! -->
 <!-- 
     title is the Heading of the blog
-    for image provide the link to the image from the Internet
+    for image provide the link to the image from the Internet (try png or jpg file)
     tags are the feild or domain of the post related
     slug is similar to title for non developers 
 
@@ -14,7 +14,7 @@ title: 'The Best Practices for Using JWT in 2024'
 pubDate: 2024-01-20  
 author: 'John Doe'  
 image: 'image1.png'  
-tags: ['tech', 'security']  
+tags: ['tech', 'security','authorisation']  
 slug: best-practices-for-using-jwt-in-2024  
 
 ---

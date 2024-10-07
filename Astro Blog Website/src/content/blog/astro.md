@@ -2,7 +2,7 @@
 title: 'Exploring the Future of Web Development with Astro.js'
 pubDate: 2024-01-16
 author: 'Shardendu Mishra'
-image: 'https://raw.githubusercontent.com/MishraShardendu22/MishraShardendu22/refs/heads/main/what-is-astro-cover-image.webp'
+image: 'https://raw.githubusercontent.com/ShardenduMishra22/ShardenduMishra22/refs/heads/main/7b5b5e4b-c2eb-4648-9cfd-f64c2e4e8ad1.webp'
 tags: ['astro.js', 'web development', 'static site generation']
 slug: exploring-the-future-of-web-development-with-astro-js
 ---

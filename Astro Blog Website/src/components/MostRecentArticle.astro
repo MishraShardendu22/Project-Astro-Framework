@@ -12,7 +12,7 @@ interface Props {
 
 <div class="relative inline-block w-full sm:w-auto cursor-pointer rounded-2xl">
   <a href={'/articles/' + article.slug}>
-    <img src={'/images/' + article.data.image} alt="Article Image" class="w-full h-auto rounded-2xl" />
+    <img src={article.data.image} alt="Article Image" class="w-full h-96 rounded-2xl" />
 
     <div
       class="absolute inset-0 flex flex-col items-center justify-center bg-black opacity-80 hover:opacity-75 transition duration-300 ease-in-out text-white text-center rounded-2xl"

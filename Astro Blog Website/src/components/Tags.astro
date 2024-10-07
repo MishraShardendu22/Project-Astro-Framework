@@ -20,13 +20,13 @@ const getTagColor = (index: number) => {
 };
 ---
 
-<div class="flex flex-wrap gap-2">
+<div class="flex flex-wrap gap-4">
   {tags.map((tag: string, index: number) => (
     <a
       href={`/articles/tag/${tag}`}
       class={`
         ${getTagColor(index)}
-        px-3 py-1 rounded-full text-sm font-medium text-white
+        px-8 py-1 rounded-full text-sm font-medium text-white
         transition-all duration-200 ease-in-out
         transform hover:scale-105 hover:shadow-md
         focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-opacity-50

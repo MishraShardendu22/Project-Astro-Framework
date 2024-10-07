@@ -2,7 +2,7 @@
 title: 'Unlocking the Power of REST APIs in Web Development'
 pubDate: 2024-01-20
 author: 'Shardendu Mishra'
-image: 'https://raw.githubusercontent.com/MishraShardendu22/MishraShardendu22/refs/heads/main/what-is-astro-cover-image.webp'
+image: 'https://raw.githubusercontent.com/ShardenduMishra22/ShardenduMishra22/refs/heads/main/7b5b5e4b-c2eb-4648-9cfd-f64c2e4e8ad1.webp'
 tags: ['rest api', 'web development', 'tech']
 slug: unlocking-the-power-of-rest-apis-in-web-development
 ---

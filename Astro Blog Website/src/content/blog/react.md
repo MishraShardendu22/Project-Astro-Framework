@@ -2,7 +2,7 @@
 title: 'Unlocking the Power of React: The Future of Web Development'
 pubDate: 2024-01-18
 author: 'Shardendu Mishra'
-image: 'https://github.com/MishraShardendu22/MishraShardendu22/blob/main/react-svgrepo-com.png?raw=true'
+image: 'https://raw.githubusercontent.com/ShardenduMishra22/ShardenduMishra22/refs/heads/main/7b5b5e4b-c2eb-4648-9cfd-f64c2e4e8ad1.webp'
 tags: ['react', 'web development', 'javascript']
 slug: unlocking-the-power-of-react-the-future-of-web-development
 ---
