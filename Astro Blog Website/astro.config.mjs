@@ -9,4 +9,5 @@ export default defineConfig({
     tailwind(),
     react(),
   ],
+  output : "server"
 });

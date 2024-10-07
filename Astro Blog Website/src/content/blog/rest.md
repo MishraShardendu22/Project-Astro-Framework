@@ -1,5 +1,3 @@
-Here’s an article about REST APIs in the same format:
-
 ---
 title: 'Unlocking the Power of REST APIs in Web Development'
 pubDate: 2024-01-20

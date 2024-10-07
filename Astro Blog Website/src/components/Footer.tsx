@@ -6,8 +6,8 @@ export const FooterComponent = () => {
   const year = new Date().getFullYear();
 
   return (
-      <footer className="bg-gray-900 h-96 text-gray-300 pt-4">
-        <div className="container mx-auto px-4 min-h-[calc(100vh-200px)]">
+      <footer className="bg-gray-900 h-[100%] mt-40 text-gray-300 pt-4">
+        <div className="container mx-auto px-4 mt-10 min-h-[calc(100vh-200px)]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="space-y-4">
               <h2 
