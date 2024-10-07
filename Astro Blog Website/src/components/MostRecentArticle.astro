@@ -1,0 +1,11 @@
+---
+import { formatDate } from "../utils";
+import type { CollectionEntry } from "astro:content";
+import Tags from "./Tags.astro";
+
+const { article } = Astro.props;
+
+interface Props {
+    article: CollectionEntry<'blog'>;
+}
+---

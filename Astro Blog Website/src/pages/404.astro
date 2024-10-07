@@ -1,157 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.js"
-      integrity="sha512-BJ/5sR2hFxQTKin/55JQCcMTObShDBAmVjL/3NR/MVcrhyOazJjAgvROem03+HYyGw16SVdSfoWCFGr9syxAKA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <title>Tech People Blog</title>
-  </head>
-  <body>
-    <nav class="bg-gray-900 text-white">
-      <div
-        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
-      >
-        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="images/logo.png" class="h-14" alt="TechPeople Logo" />
-          <span
-            class="self-center text-2xl font-semibold whitespace-nowrap"
-            ><span class="text-indigo-400">Tech</span>People</span
-          >
-        </a>
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
-          aria-controls="navbar-default"
-          aria-expanded="false"
-        >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul
-            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 text-white rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 border-gray-700"
-          >
-            <li>
-              <a
-                href="index.html"
-                class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-400"
-                aria-current="page"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a
-                href="articles.html"
-                class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-400"
-                >All Articles</a
-              >
-            </li>
-            <li>
-              <a
-                href="about.html"
-                class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-400"
-                >About</a
-              >
-            </li>
-          </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Lost in Space</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', monospace;
+            overflow: hidden;
+            color: #00ff00;
+            background-color: #000;
+        }
+        #scene {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 1;
+            width: 90%;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 6rem;
+            margin-bottom: 0;
+            text-shadow: 0 0 10px #00ff00;
+        }
+        @keyframes glitch {
+            2%, 64% {
+                transform: translate(2px,0) skew(0deg);
+            }
+            4%, 60% {
+                transform: translate(-2px,0) skew(0deg);
+            }
+            62% {
+                transform: translate(0,0) skew(5deg); 
+            }
+        }
+        p {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+        .home-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #00ff00;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .home-button:hover {
+            background-color: #000;
+            color: #00ff00;
+            box-shadow: 0 0 20px #00ff00;
+        }
+        #terminal {
+            font-family: 'Courier New', monospace;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #00ff00;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            text-align: left;
+            border: 1px solid #00ff00;
+            box-shadow: 0 0 10px #00ff00;
+        }
+        #terminal p {
+            margin: 5px 0;
+            font-size: 1rem;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+        .astronaut {
+            position: absolute;
+            width: 100px;
+            height: auto;
+            animation: float 6s ease-in-out infinite;
+        }
+        #astronaut1 { top: 10%; left: 10%; }
+        #astronaut2 { top: 20%; right: 15%; animation-delay: -2s; }
+        #astronaut3 { bottom: 15%; left: 20%; animation-delay: -4s; }
+    </style>
+</head>
+<body>
+    <div id="scene"></div>
+    <img src="https://github.com/ShardenduMishra22/ShardenduMishra22/blob/main/1000_F_519325685_Wy96q7w50hNTxNjTUYyQbkQnSmHIQxjv-removebg-preview.png?raw=true" alt="Floating astronaut" class="astronaut" id="astronaut1">
+    <img src="https://github.com/ShardenduMishra22/ShardenduMishra22/blob/main/1000_F_519325685_Wy96q7w50hNTxNjTUYyQbkQnSmHIQxjv-removebg-preview.png?raw=true" alt="Floating astronaut" class="astronaut" id="astronaut2">
+    <img src="https://github.com/ShardenduMishra22/ShardenduMishra22/blob/main/1000_F_519325685_Wy96q7w50hNTxNjTUYyQbkQnSmHIQxjv-removebg-preview.png?raw=true" alt="Floating astronaut" class="astronaut" id="astronaut3">
+    <div class="content">
+        <h1>404</h1>
+        <p>SYSTEM ERROR: PAGE NOT FOUND</p>
+        <div id="terminal">
+            <p>> Initiating space rescue protocol...</p>
+            <p>> Scanning for nearest exit...</p>
+            <p>> Exit found: Homepage</p>
+            <p>> Prepare for immediate evacuation!</p>
         </div>
-      </div>
-    </nav>
+        <a href="/" class="home-button">EMERGENCY EVACUATION</a>
+    </div>
+    <script>
+        // Create starry background
+        const scene = document.getElementById('scene');
+        if (scene) {
+            for (let i = 0; i < 500; i++) {
+                const star = document.createElement('div');
+                star.style.position = 'absolute';
+                star.style.width = '2px';
+                star.style.height = '2px';
+                star.style.background = '#fff';
+                star.style.left = `${Math.random() * 100}%`;
+                star.style.top = `${Math.random() * 100}%`;
+                star.style.animation = `twinkle ${Math.random() * 5 + 5}s linear infinite`;
+                scene.appendChild(star);
+            }
+        }
 
-    <section class="container mx-auto max-w-screen-lg mt-10 px-8">
-      <div class="flex flex-col items-center justify-items-center gap-7">
-        <img src="./images/error-404.png" alt="" width="250" height="250" class="mt-10">
-        <h1 class="text-5xl">Page Not Found</h1>
-        <p class="text-2xl mb-10">
-          Sorry, we couldn't find the page you were looking for.
-        </p>
-        <a href="index.html" class="inline-block bg-gray-100 p-2 mb-6 hover:bg-indigo-500 hover:text-white">Go Back Home</a>
-      </div>
-    </section>
-
-    <footer class="bg-indigo-900 text-white">
-      <div class="container mx-auto mt-10 max-w-screen-xl px-8">
-        <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
-          <div class="mt-10">
-            <h3 class="text-xl font-semibold mb-4">About</h3>
-            <p class="text-white text-sm">
-              TechPeople is a blog for tech enthusiasts. We publish articles,
-              stories and tutorials about the latest technology trends and
-              advancements.
-            </p>
-          </div>
-          <div class="mt-10">
-            <h3 class="text-xl font-semibold mb-4">Categories</h3>
-            <ul class="text-white text-sm">
-              <li class="mb-2">
-                <a href="#">Tech</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">Programming</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">Gadgets</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">Hardware</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">Software</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">VR</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">Smartphones</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">Cameras</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">Drones</a>
-              </li>
-            </ul>
-          </div>
-          <div class="mt-10">
-            <h3 class="text-xl font-semibold mb-4">Contact</h3>
-            <ul class="text-white text-sm">
-              <li class="mb-2">
-                <a href="#">Email</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">Twitter</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">Facebook</a>
-              </li>
-              <li class="mb-2">
-                <a href="#">Instagram</a>
-              </li>
-            </ul>
-    </footer>
-  </body>
+        // Animate terminal text
+        const terminalLines = document.querySelectorAll('#terminal p');
+        terminalLines.forEach((line, index) => {
+            setTimeout(() => {
+                (line as HTMLElement).style.display = 'block';
+                setTimeout(() => {
+                    (line as HTMLElement).style.opacity = '1';
+                }, 50);
+            }, index * 1000);
+        });
+    </script>
+</body>
 </html>
