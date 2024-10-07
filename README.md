@@ -1,26 +1,26 @@
-# Shardendu Mishra's Personal Website
+# Shardendu Mishra's Personal Blog
 
-Welcome to my personal website! Here, you can find information about my projects, skills, and interests in the fields of computer science, history, and technology.
+Welcome to my personal blog! Here, you can explore a variety of articles on computer science, history, technology, and more. I share insights, tutorials, and my thoughts on various topics.
 
 ## Demo
 
-Visit my website: [astro-j29f8jhok-shardendu-mishra.vercel.app](https://astro-j29f8jhok-shardendu-mishra.vercel.app/)
+Visit my blog: [astro-j29f8jhok-shardendu-mishra.vercel.app](https://astro-j29f8jhok-shardendu-mishra.vercel.app/)
 
 ## Tech Stack
 
-Here are the technologies used to build this website:
+This blog is built using the following technologies:
 
-- ![Astro](https://img.shields.io/badge/Astro-FF5C2D?style=flat-square&logo=astro&logoColor=white)
-- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+- ![Astro](https://img.shields.io/badge/Astro-FF5C2D?style=flat-square&logo=astro&logoColor=white) **Astro**: A modern static site generator for building fast websites.
+- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) **Vercel**: A cloud platform for static sites and serverless functions.
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) **HTML5**: The standard markup language for creating web pages.
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) **CSS3**: A style sheet language used for describing the presentation of a document.
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) **JavaScript**: A high-level programming language for building interactive web applications.
 
 ## Features
 
-- Responsive design
-- Interactive UI
-- Showcases my projects and skills
+- **Responsive Design**: The blog adapts seamlessly to various screen sizes for an optimal reading experience.
+- **Interactive UI**: Engaging user interface elements enhance the browsing experience.
+- **Showcases My Projects and Skills**: Articles reflect my expertise and interests in tech and history.
 
 ## Getting Started
 
@@ -46,7 +46,3 @@ To view or modify the project locally:
 ## Contact
 
 Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/shardendumishra22/) or [Twitter](https://x.com/Shardendu_M).
-
----
-
-Thank you for visiting my website!
