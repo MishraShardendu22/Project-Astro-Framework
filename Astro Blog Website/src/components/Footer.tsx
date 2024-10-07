@@ -2,7 +2,7 @@ import React from 'react';
 import { Heart, Twitter, Instagram, MapPin, Github, Code } from 'lucide-react';
 import PropTypes from 'prop-types';
 
-export const Footer = () => {
+export const FooterComponent = () => {
   const year = new Date().getFullYear();
 
   return (
@@ -59,22 +59,27 @@ export const Footer = () => {
   );
 };
 
-const SocialLink = ({ href, icon, label, text }) => {
-  return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center text-purple-400 hover:text-yellow-400 transition-colors duration-300 text-lg group"
-      aria-label={label}
-    >
-      <span className="bg-gray-800 p-2 rounded-full group-hover:bg-purple-700 transition-colors duration-300">
-        {icon}
-      </span>
-      <span className="ml-2 hidden sm:inline">{text}</span>
-    </a>
-  );
-};
+interface SocialLinkProps {
+  href: string;
+  icon: React.ReactNode;
+  label: string;
+  text: string;
+}
+
+const SocialLink: React.FC<SocialLinkProps> = ({ href, icon, label, text }) => (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center text-purple-400 hover:text-yellow-400 transition-colors duration-300 text-lg group"
+    aria-label={label}
+  >
+    <span className="bg-gray-800 p-2 rounded-full group-hover:bg-purple-700 transition-colors duration-300">
+      {icon}
+    </span>
+    <span className="ml-2 hidden sm:inline">{text}</span>
+  </a>
+);
 
 SocialLink.propTypes = {
   href: PropTypes.string.isRequired,
@@ -83,4 +88,4 @@ SocialLink.propTypes = {
   text: PropTypes.string.isRequired,
 };
 
-export default Footer;
+export default FooterComponent;
